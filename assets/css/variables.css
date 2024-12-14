@@ -1,0 +1,65 @@
+:root {
+/* ---------- Systems Variables ---------- */
+    /* Breakpoints */
+    --breakpoint-mobile: 768px;
+    --breakpoint-tablet: 1024px;
+    
+    /* Min/Max Width */
+    --width-min: 320px;
+    --width-max: 1440px;
+
+/* ---------- Colors Variables ---------- */
+    /* Main */
+    --color-main-black: #201B1B;
+    --color-main-white: #FCF9FA;
+    --color-main-transparent: rgba(var(--color-white), 0);
+
+    /* Primary */
+    --color-primary-100: #FCF7F2;
+    --color-primary-200: #FAEBE1;
+    --color-primary-300: #F5DACE;
+    --color-primary-400: #EDB9AD;
+    --color-primary-500: #E68F8C;
+    --color-primary-600: #E68F8C;
+    --color-primary-700: #AB524F;
+    --color-primary-800: #8A3633;
+    --color-primary-900: #661D1C;
+
+    /* Black Opacity */
+    --color-opacity-black-0: rgba(var(--color-black), 0);
+    --color-opacity-black-5: rgba(var(--color-black), 0.05);
+    --color-opacity-black-10: rgba(var(--color-black), 0.1);
+    --color-opacity-black-20: rgba(var(--color-black), 0.2);
+    --color-opacity-black-25: rgba(var(--color-black), 0.25);
+    --color-opacity-black-30: rgba(var(--color-black), 0.30);
+    --color-opacity-black-40: rgba(var(--color-black), 0.40);
+    --color-opacity-black-50: rgba(var(--color-black), 0.50);
+    --color-opacity-black-60: rgba(var(--color-black), 0.60);
+    --color-opacity-black-70: rgba(var(--color-black), 0.70);    
+    --color-opacity-black-75: rgba(var(--color-black), 0.75);
+    --color-opacity-black-80: rgba(var(--color-black), 0.80);
+    --color-opacity-black-90: rgba(var(--color-black), 0.90);
+    --color-opacity-black-95: rgba(var(--color-black), 0.95);
+    --color-opacity-black-100: rgba(var(--color-black), 1);
+
+    /* Primary Opacity */
+    --color-opacity-primary-0: rgba(var(--color-primary-500), 0);
+    --color-opacity-primary-5: rgba(var(--color-primary-500), 0.05);
+    --color-opacity-primary-10: rgba(var(--color-primary-500), 0.1);
+    --color-opacity-primary-20: rgba(var(--color-primary-500), 0.2);
+    --color-opacity-primary-25: rgba(var(--color-primary-500), 0.25);
+    --color-opacity-primary-30: rgba(var(--color-primary-500), 0.30);
+    --color-opacity-primary-40: rgba(var(--color-primary-500), 0.40);
+    --color-opacity-primary-50: rgba(var(--color-primary-500), 0.50);
+    --color-opacity-primary-60: rgba(var(--color-primary-500), 0.60);
+    --color-opacity-primary-70: rgba(var(--color-primary-500), 0.70);    
+    --color-opacity-primary-75: rgba(var(--color-primary-500), 0.75);
+    --color-opacity-primary-80: rgba(var(--color-primary-500), 0.80);
+    --color-opacity-primary-90: rgba(var(--color-primary-500), 0.90);
+    --color-opacity-primary-95: rgba(var(--color-primary-500), 0.95);
+    --color-opacity-primary-100: rgba(var(--color-primary-500), 1);
+
+/* ---------- Font Variables ---------- */
+    /* Font Family */
+    --font-family: 'Roboto', sans-serif;
+}
