@@ -1,0 +1,117 @@
+@import "./variables.css";
+/* ---------- Typography Classes ---------- */
+/* Text Classes */
+.text-xs {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text-sm {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Title Classes */
+.title-6 {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+}
+.title-5 {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-4 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 700;
+
+    @media screen and (width <= var(--breakpoint-mobile)) {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.title-3 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 700;
+
+    @media screen and (width <= var(--breakpoint-mobile)) {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.title-2 {
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 700;
+
+    @media screen and (width <= var(--breakpoint-mobile)) {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+.title-1 {
+    font-family: var(--font-family);
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 700;
+
+    @media screen and (width <= var(--breakpoint-mobile)) {
+        font-size: 36px;
+        font-weight: 700;
+    }
+}
+
+/* Paragraph Classes */
+.paragraph-regular {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.paragraph-bold {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.paragraph-italic {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Link Classes */
+.link-typo {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Button Classes */
+.button-typo-large {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-typo-medium {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button-typo-small {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 700;
+}
