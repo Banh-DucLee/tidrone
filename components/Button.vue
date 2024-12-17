@@ -1,6 +1,6 @@
 <template>
-    <NuxtLink v-if="buttonType === 'redirect'" class="button-component"  :to="to" :class="buttonStyle">{{ text }}</NuxtLink>
-    <a v-else-if="buttonType === 'mail'" class="button-component"  :href="`mailto:${to}`" :class="buttonStyle" target="_blank">{{ text }}</a>
+    <NuxtLink v-if="buttonType === 'redirect'" class="button-component text-center"  :to="to" :class="buttonStyle">{{ text }}</NuxtLink>
+    <a v-else-if="buttonType === 'mail'" class="button-component text-center"  :href="`mailto:${to}`" :class="buttonStyle" target="_blank">{{ text }}</a>
 </template>
 
 <script setup>
@@ -31,7 +31,6 @@ defineProps({
         color: var(--color-main-black);
         border: 2px solid var(--color-main-black);
         padding: 5px 10px;
-        border-radius: 5px;
     }
 
     .button-component:hover {
