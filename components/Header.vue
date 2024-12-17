@@ -31,7 +31,8 @@
         justify-content: space-between;
         align-items: center;
         gap: 16px;
-        width: calc(100vw - 16px);
+        width: 100vw;
+        padding-inline: 16px;
         box-sizing: border-box;
     }
 
