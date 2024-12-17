@@ -4,19 +4,19 @@
         <nav class="desktop-nav">
             <ul>
                 <li class="link-typo">
-                    <NuxtLink class="header-link" to="/">Accueil</NuxtLink>
+                    <NuxtLink class="header-link text-nowrap" to="/">Accueil</NuxtLink>
                 </li>
                 <li class="link-typo">
-                    <NuxtLink class="header-link" to="/services">Mes Services</NuxtLink>
+                    <NuxtLink class="header-link text-nowrap" to="/services">Mes Services</NuxtLink>
                 </li>
                 <li class="link-typo">
-                    <NuxtLink class="header-link" to="/about">Qui suis-je ?</NuxtLink>
+                    <NuxtLink class="header-link text-nowrap" to="/about">Qui suis-je ?</NuxtLink>
                 </li>
                 <li class="link-typo">
-                    <NuxtLink class="header-link" to="/news">Mes Actualités</NuxtLink>
+                    <NuxtLink class="header-link text-nowrap" to="/news">Mes Actualités</NuxtLink>
                 </li>
                 <li class="link-typo">
-                    <NuxtLink class="header-link" to="/contact">Me Contacter</NuxtLink>
+                    <NuxtLink class="header-link text-nowrap" to="/contact">Me Contacter</NuxtLink>
                 </li>
             </ul>
         </nav>
@@ -61,7 +61,6 @@
     .header-link {
         text-decoration: none;
         color: var(--color-main-black);
-        white-space: nowrap;
     }
 
     .header-link:hover {
