@@ -129,3 +129,11 @@
     font-size: 12px;
     font-weight: 700;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
