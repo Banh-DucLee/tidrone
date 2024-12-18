@@ -31,7 +31,10 @@
         justify-content: space-between;
         align-items: center;
         gap: 16px;
-        width: 100vw;
+        width: 100%;
+        margin: 0 auto;
+        min-width: var(--width-min);
+        max-width: var(--width-max);
         padding-inline: 16px;
         box-sizing: border-box;
     }
