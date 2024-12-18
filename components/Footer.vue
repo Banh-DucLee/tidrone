@@ -6,8 +6,8 @@
                 <p class="text-sm">Lorem ipsum odor amet, consectetuer adipiscing elit. Aaliquet fames netus rutrum nisi accumsan. Nam molestie placerat cras ut quisque</p>
             </div>
             <div class="footer-top-cta">
-                <Button buttonType="mail" text="Par Mail" to="contact@tidrone.fr" buttonStyle="button-typo-large" />
-                <Button buttonType="redirect" text="Via Formulaire" to="/contact" buttonStyle="button-typo-large" />
+                <Button buttonType="mail" text="Par Mail" to="contact@tidrone.fr" buttonClass="button-typo-large" />
+                <Button buttonType="redirect" text="Via Formulaire" to="/contact" buttonClass="button-typo-large" />
             </div>
         </div>
         <div class="footer-bottom">
