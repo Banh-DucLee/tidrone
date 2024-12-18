@@ -3,7 +3,7 @@
         <article>
             <img :src="data.imageUrl" :alt="data.altImage" class="service-preview-image">
             <h3 class="title-3">{{ data.title }}</h3>
-            <p class="paragraph-regular">{{ data.description }}</p>
+            <p class="paragraph-regular">{{ data.descriptionPreview }}</p>
         </article>
         <div class="link-wrapper">
                 <p class="link-typo">En savoir plus</p>
