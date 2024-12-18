@@ -12,5 +12,6 @@
     padding: 0;
     min-width: var(--width-min);
     max-width: var(--width-max);
+    box-sizing: border-box;
   }
 </style>
