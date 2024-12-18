@@ -3,6 +3,7 @@
         "imageUrl": "/images/services/template.png",
         "altImage": "",
         "title": "Inspection & BTP",
+        "descriptionPreview": "Nous proposons des solutions de surveillance par drone pour vos projets de construction, réduisant les interventions humaines et optimisant coûts et délais grâce à des inspections rapides, précises et sécurisées.",
         "description": "Nous mettons à votre disposition des solutions de surveillance par drone pour vos projets de construction et d'infrastructure. Que ce soit pour le suivi de chantier, l'inspection de toitures, de pylônes ou encore de ponts, nos drones permettent une inspection rapide, précise et sécurisée. En réduisant le besoin d'interventions humaines en hauteur, nous optimisons vos coûts et vos délais tout en garantissant des résultats à la hauteur de vos exigences",
         "link": "/services#inspection",
         "actionsGroup": [
@@ -29,6 +30,7 @@
         "imageUrl": "/images/services/template.png",
         "altImage": "",
         "title": "Cinématographie",
+        "descriptionPreview": "Offrez à vos projets cinématographiques des prises de vues aériennes spectaculaires avec nos drones de haute précision, garantissant des images stabilisées et fluides, même dans les conditions les plus exigeantes.",
         "description": "Élevez vos projets cinématographiques à un niveau supérieur grâce à nos drones de haute précision. Nous réalisons des prises de vues aériennes spectaculaires pour le cinéma, la publicité, les séries et autres productions. Grâce à notre équipement haut de gamme, nous vous garantissons des images stabilisées et fluides, même dans les conditions les plus exigeantes.",
         "link": "/services#inspection",
         "actionsGroup": [
@@ -47,6 +49,7 @@
         "imageUrl": "/images/services/template.png",
         "altImage": "",
         "title": "FPV",
+        "descriptionPreview": "Nos drones FPV capturent des images dynamiques et immersives, idéales pour des projets créatifs, avec des mouvements rapides et acrobatiques qui offrent une expérience visuelle unique.",
         "description": "Avec nos drones FPV, nous vous offrons une expérience visuelle inédite, idéale pour les projets créatifs qui nécessitent des prises de vues dynamiques et immersives. Que ce soit pour un clip vidéo, une publicité ou un film, nos drones FPV sont capables de capturer des mouvements rapides, acrobatiques et fluides, pour des images spectaculaires qui ne laissent personne indifférent.",
         "link": "/services#inspection",
         "actionsGroup": [
