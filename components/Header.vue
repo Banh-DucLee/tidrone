@@ -37,12 +37,14 @@
         max-width: var(--width-max);
         padding-inline: 16px;
         box-sizing: border-box;
+        background-color: var(--color-primary-200);
+        z-index: 999;
     }
 
     .header-logo {
-        object-fit: cover;
+        object-fit: contain;
         height: 80px;
-
+        max-width: 50%;
     }
 
     .desktop-nav {
