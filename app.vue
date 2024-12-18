@@ -14,4 +14,9 @@
     max-width: var(--width-max);
     box-sizing: border-box;
   }
+
+  main {
+    padding: 80px 0 0 0;
+  }
+
 </style>
