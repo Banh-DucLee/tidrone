@@ -1,6 +1,6 @@
 [
     {
-        "imageUrl": "/images/services/template.png",
+        "imageUrl": "/images/services/inspection.jpg",
         "altImage": "",
         "title": "Inspection & BTP",
         "descriptionPreview": "Nous proposons des solutions de surveillance par drone pour vos projets de construction, réduisant les interventions humaines et optimisant coûts et délais grâce à des inspections rapides, précises et sécurisées.",
@@ -27,7 +27,7 @@
         ]
     },    
     {
-        "imageUrl": "/images/services/template.png",
+        "imageUrl": "/images/services/cinematographie.jpg",
         "altImage": "",
         "title": "Cinématographie",
         "descriptionPreview": "Offrez à vos projets cinématographiques des prises de vues aériennes spectaculaires avec nos drones de haute précision, garantissant des images stabilisées et fluides, même dans les conditions les plus exigeantes.",
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "imageUrl": "/images/services/template.png",
+        "imageUrl": "/images/services/fpv.jpg",
         "altImage": "",
         "title": "FPV",
         "descriptionPreview": "Nos drones FPV capturent des images dynamiques et immersives, idéales pour des projets créatifs, avec des mouvements rapides et acrobatiques qui offrent une expérience visuelle unique.",
