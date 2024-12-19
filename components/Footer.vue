@@ -28,7 +28,7 @@
 
             </div>
             <div class="footer-bottom-logo-container">
-                <img class="footer-bottom-logo" src="/images/Logo.png" alt="Logo de l'entreprise">
+                <img class="footer-bottom-logo" src="/images/svg/logo_dark.svg" alt="Logo de l'entreprise">
                 <p class="text-sm footer-bottom-copyright">© 2024 Tous droits réservés</p>
             </div>
         </div>
@@ -61,7 +61,8 @@ defineProps({
         gap: 8px;
         box-sizing: border-box;
         padding: 32px 16px;
-        background-color: var(--color-opacity-primary-20);
+        color: var(--color-main-white);
+        background-color: var(--color-opacity-black-90);
     }
 
     .footer-top-text {
@@ -85,7 +86,8 @@ defineProps({
         padding: 16px;
         box-sizing: border-box;
         gap: 16px;
-        background-color: var(--color-opacity-primary-50);
+        color: var(--color-main-white);
+        background-color: var(--color-opacity-black-100);
     }
 
     .footer-bottom-nav-container {
@@ -109,7 +111,7 @@ defineProps({
 
     .footer-bottom-nav-link {
         text-decoration: none;
-        color: var(--color-main-black);
+        color: var(--color-main-white);
     }
 
     .footer-bottom-socials {
