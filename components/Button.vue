@@ -28,24 +28,28 @@ defineProps({
 <style scoped>
     .button-component {
         text-decoration: none;
-        color: var(--color-main-white);
-        background-color: var(--color-primary-500);
-        padding: 12px 16px;
+        color: var(--color-primary-500);
+        background-color: var(--color-main-transparent);
+        border: 5px solid var(--color-primary-500);
+        padding: 7px 11px;
         border-radius: 4px;
+        box-sizing: border-box;
         text-shadow: 0px 0px 4px var(--color-opacity-black-25);
     }
 
     .button-component:hover {
-        background-color: var(--color-primary-700);
+        color: var(--color-primary-700);
+        border-color: var(--color-primary-700);
     }
 
     .button-component:active {
-        background-color: var(--color-primary-800);
+        color: var(--color-primary-800);
+        border-color: var(--color-primary-800);
     }
 
     .button-component:disabled {
         color: var(--color-opacity-black-50);
-        background-color: var(--color-opacity-black-25);
+        border-color: var(--color-opacity-black-25);
     }
 
     .button-component:focus {
