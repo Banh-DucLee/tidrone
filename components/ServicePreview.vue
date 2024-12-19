@@ -7,7 +7,7 @@
         </article>
         <div class="link-wrapper">
                 <p class="link-typo">En savoir plus</p>
-                <img class="service-preview-arrow" src="/images/svg/arrow-right.svg">
+                <img class="service-preview-arrow" src="/images/svg/arrow-right.svg" alt="Image d'une fléche">
         </div>
     </a>
 </template>
