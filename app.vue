@@ -7,6 +7,10 @@
 </template>
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     margin: 0 auto;
     padding: 0;
@@ -16,7 +20,7 @@
   }
 
   main {
-    padding: 80px 0 0 0;
+    padding: 75px 0 0 0;
   }
 
 </style>
