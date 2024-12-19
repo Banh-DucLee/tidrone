@@ -6,7 +6,7 @@
                 De l'inspection industrielle à la prise de vue cinématographique, en passant par les images immersives en drone FPV, nous offrons des solutions aériennes innovantes et sur-mesure pour tous vos projets.
                 <br>Homologué pour les scénarios européen S1, S2 et S3
             </p>
-            <Button text="Demander un devis" to="/contact" buttonClass="button-typo-large"/>
+            <Button to="#services" text="Découvrez nos services" buttonClass="button-typo-large" />
             <iframe class="landing-section-video"
                     height="100%"
                     src="https://www.youtube.com/embed/ndTZAj9abSw?autoplay=1&mute=1&loop=1&playlist=ndTZAj9abSw&controls=0&disablekb=1&showinfo=0"
@@ -17,7 +17,7 @@
             ></iframe>
             <span class="landing-section-video-mask"></span>
         </section>
-        <section class="services-section">
+        <section id="services" class="services-section">
             <h2 class="title-2 text-center">Nos Services</h2>
             <div class="services-section-preview">
                 <ServicePreview v-for="(service, index) in services" :key="index" :data="service" />
@@ -39,12 +39,11 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 85vh;
     width: 100%;
     padding-inline: 16px;
     box-sizing: border-box;
-    gap: 36px;
-    margin: 36px 0;
+    gap: 80px;
     overflow-x: hidden;
 }
 
@@ -66,7 +65,7 @@
 .landing-section-video-mask {
     content: '';
     display: block;
-    background-color: var(--color-opacity-black-40);
+    background-color: var(--color-opacity-black-60);
     position: absolute;
     top: 0;
     left: 50%;
