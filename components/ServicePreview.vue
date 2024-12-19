@@ -2,7 +2,7 @@
     <a class="shadow-base" :href="data.link">
         <article>
             <img :src="data.imageUrl" :alt="data.altImage" class="service-preview-image">
-            <h3 class="title-3">{{ data.title }}</h3>
+            <h3 class="title-3 service-preview-title">{{ data.title }}</h3>
             <p class="paragraph-regular">{{ data.descriptionPreview }}</p>
         </article>
         <div class="link-wrapper">
@@ -32,7 +32,7 @@
         padding: 8px;
         text-decoration: none;
         color: var(--color-main-black);
-        border: 1px solid var(--color-opacity-black-10);;
+        border: 1px solid var(--color-opacity-black-10);
     }
 
     article {
@@ -43,7 +43,12 @@
 
     .service-preview-image {
         width: 100%;
+        max-height: 120px;
         object-fit: cover;
+    }
+
+    .service-preview-title {
+
     }
 
     .link-wrapper {
