@@ -23,12 +23,27 @@
                 <ServicePreview v-for="(service, index) in services" :key="index" :data="service" />
             </div>
         </section>
+        <section v-if="partners.length > 0" class="partners-section">
+            <h2 class="title-2 text-center">Nos Partenaires</h2>
+            <div class="partners-list">
+                <LinkIcon v-for="(partner, index) in partners" :key="index" :linkName="partner.name" :logoUrl="partner.logoUrl" :link="partner.link" size="150px" />
+            </div>
+        </section>
+        <section v-if="reviews.length > 0" class="reviews-section">
+            <h2 class="title-2 text-center">Vos Retours</h2>
+
+        </section>
     </main>
 </template>
 
 <script setup>
     import servicesData from 'assets/json/services.json';
+    import partnersData from 'assets/json/partners.json';
+    import reviewsData from 'assets/json/reviews.json';
+    
     const services = servicesData;
+    const partners = partnersData;
+    const reviews = reviewsData;
 </script>
 
 <style scoped>
@@ -76,7 +91,6 @@
 }
 
 .services-section {
-    background-color: var(--color-primary-200);
     padding: 24px 0;
     display: flex;
     flex-flow: column nowrap;
@@ -90,6 +104,25 @@
     justify-content: center;
     gap: 8px;
     padding-inline: 16px;
+}
+
+.partners-section {
+    padding: 24px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 24px;
+}
+
+.partners-list {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 16px;
+    box-sizing: border-box;
 }
 
 @media (width <= 768px) {
