@@ -1,12 +1,12 @@
 <template>
-    <a :href="link" target="_blank" :alt="'Lien vers ' + socialName" class="social-icon-link">
-        <img :src="svgUrl" :alt="'Logo de ' + socialName" class="social-icon">
+    <a :href="link" target="_blank" :alt="'Lien vers ' + linkName" :style="{ '--icon-size': size }" class="social-icon-link">
+        <img :src="logoUrl" :alt="'Logo de ' + linkName" class="social-icon">
     </a>
 </template>
 
 <script setup>
 defineProps({
-    svgUrl: {
+    logoUrl: {
         type: String,
         required: true,
     },
@@ -14,9 +14,13 @@ defineProps({
         type: String,
         required: true,
     },
-    socialName: {
+    linkName: {
         type: String,
         required: true,
+    },
+    size: {
+        type: String,
+        default: '50px'
     }
 });
 </script>
@@ -25,7 +29,7 @@ defineProps({
 .social-icon-link {
     display: block;
     aspect-ratio: 1;
-    width: 50px;
+    width: var(--icon-size);
     height: auto;
 }
 
