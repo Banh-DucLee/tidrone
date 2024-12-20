@@ -29,21 +29,15 @@
                 <LinkIcon v-for="(partner, index) in partners" :key="index" :linkName="partner.name" :logoUrl="partner.logoUrl" :link="partner.link" size="150px" />
             </div>
         </section>
-        <section v-if="reviews.length > 0" class="reviews-section">
-            <h2 class="title-2 text-center">Vos Retours</h2>
-
-        </section>
     </main>
 </template>
 
 <script setup>
     import servicesData from 'assets/json/services.json';
     import partnersData from 'assets/json/partners.json';
-    import reviewsData from 'assets/json/reviews.json';
     
     const services = servicesData;
     const partners = partnersData;
-    const reviews = reviewsData;
 </script>
 
 <style scoped>
@@ -54,9 +48,9 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: calc(100vh - 80px);
     width: 100%;
-    padding-inline: 16px;
+    padding-inline: clamp(1rem, 0.45rem + 2.75vw, 3.75rem);
     box-sizing: border-box;
     gap: 80px;
     overflow-x: hidden;
@@ -91,7 +85,7 @@
 }
 
 .services-section {
-    padding: 24px 0;
+    padding: 90px 0 24px 0;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -127,8 +121,7 @@
 
 @media (width <= 768px) {
     .landing-section {
-        height: calc(85vh - 80px);
-        padding-inline: 16px;
+        height: calc(100vh - 80px);
     }
 
     .services-section-preview {
