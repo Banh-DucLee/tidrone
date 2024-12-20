@@ -29,6 +29,7 @@
                 <LinkIcon v-for="(partner, index) in partners" :key="index" :linkName="partner.name" :logoUrl="partner.logoUrl" :link="partner.link" size="150px" />
             </div>
         </section>
+        <ReviewCarrousel />
     </main>
 </template>
 
