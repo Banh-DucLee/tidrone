@@ -101,9 +101,9 @@
 .services-section-preview {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     gap: 8px;
     padding-inline: 16px;
+    box-sizing: border-box;
 }
 
 .partners-section {
