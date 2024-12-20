@@ -1,5 +1,5 @@
 <template>
-    <a :href="data.link">
+    <a class="shadow-base" :href="data.link">
         <article>
             <div class="service-preview-image-wrapper">
                 <img :src="data.imageUrl" :alt="data.altImage" class="service-preview-image">
@@ -37,7 +37,7 @@
     }
 
     a:hover {
-        scale: 1.02;
+        scale: 1.015;
     }
 
     a:hover .divider {
