@@ -6,8 +6,8 @@
                 <p class="text-sm">Lorem ipsum odor amet, consectetuer adipiscing elit. Aaliquet fames netus rutrum nisi accumsan. Nam molestie placerat cras ut quisque</p>
             </div>
             <div class="footer-top-cta">
-                <Button buttonType="mail" text="Par Mail" to="contact@tidrone.fr" buttonStyle="button-typo-large" />
-                <Button buttonType="redirect" text="Via Formulaire" to="/contact" buttonStyle="button-typo-large" />
+                <Button buttonType="mail" text="Par Mail" to="contact@tidrone.fr" buttonClass="button-typo-large" />
+                <Button buttonType="redirect" text="Via Formulaire" to="/contact" buttonClass="button-typo-large" />
             </div>
         </div>
         <div class="footer-bottom">
@@ -28,7 +28,7 @@
 
             </div>
             <div class="footer-bottom-logo-container">
-                <img class="footer-bottom-logo" src="/images/Logo.png" alt="Logo de l'entreprise">
+                <img class="footer-bottom-logo" src="/images/svg/logo_dark.svg" alt="Logo de l'entreprise">
                 <p class="text-sm footer-bottom-copyright">© 2024 Tous droits réservés</p>
             </div>
         </div>
@@ -61,7 +61,8 @@ defineProps({
         gap: 8px;
         box-sizing: border-box;
         padding: 32px 16px;
-        background-color: var(--color-opacity-primary-20);
+        color: var(--color-main-white);
+        background-color: var(--color-opacity-black-90);
     }
 
     .footer-top-text {
@@ -85,7 +86,8 @@ defineProps({
         padding: 16px;
         box-sizing: border-box;
         gap: 16px;
-        background-color: var(--color-opacity-primary-50);
+        color: var(--color-main-white);
+        background-color: var(--color-opacity-black-100);
     }
 
     .footer-bottom-nav-container {
@@ -109,7 +111,7 @@ defineProps({
 
     .footer-bottom-nav-link {
         text-decoration: none;
-        color: var(--color-main-black);
+        color: var(--color-main-white);
     }
 
     .footer-bottom-socials {

@@ -16,7 +16,7 @@
                 </div>
                 <div class="service-details-cta">
                     <p class="text-sm">Cette prestation vous intéresse ? Contactez-moi directement pour plus d’informations</p>
-                    <Button text="Demander un devis" to="/contact" buttonStyle="button-typo-medium" />
+                    <Button text="Demander un devis" to="/contact" buttonClass="button-typo-medium" />
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
     }
 
     .service-details-image {
-        width: 33%;
+        max-width: 33%;
         object-fit: cover;
     }
 

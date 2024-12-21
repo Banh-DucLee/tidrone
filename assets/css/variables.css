@@ -6,7 +6,7 @@
     
     /* Min/Max Width */
     --width-min: 320px;
-    --width-max: 1440px;
+    --width-max: 1920px;
 
 /* ---------- Colors Variables ---------- */
     /* Main */
@@ -61,5 +61,5 @@
 
 /* ---------- Font Variables ---------- */
     /* Font Family */
-    --font-family: 'Roboto', sans-serif;
+    --font-family: 'Montserrat', sans-serif;
 }
