@@ -34,6 +34,8 @@
         text-decoration: none;
         color: var(--color-main-black);
         transition: all 0.2s ease-in-out;
+        border-radius: 5px;
+        overflow: hidden;
     }
 
     a:hover {
