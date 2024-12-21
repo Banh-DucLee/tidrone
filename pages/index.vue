@@ -30,6 +30,7 @@
             </div>
         </section>
         <ReviewCarrousel />
+        <LastNews />
     </main>
 </template>
 
